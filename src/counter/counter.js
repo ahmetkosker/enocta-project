@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { GrSubtractCircle } from "react-icons/gr";
-import { IoChevronForward } from "react-icons/io5";
-import { IoChevronBackOutline } from "react-icons/io5";
 
 const Counter = () => {
   const [second, setSecond] = useState(36000);
